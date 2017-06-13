@@ -1,6 +1,7 @@
 <?php
     session_start();
 
+
     $string = '';
     $dir = '/fonts/';
 
@@ -22,4 +23,5 @@
 
     header("Content-type: image/png");
     imagepng($image);
+
 ?>
