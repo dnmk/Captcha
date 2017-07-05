@@ -14,6 +14,7 @@
     $_SESSION['random_code'] = $string;
 
 
+
     $image = imagecreatetruecolor(136, 50);
     $black = imagecolorallocate($image, 0, 0, 0);
     $color = imagecolorallocate($image, 200, 100, 90);
